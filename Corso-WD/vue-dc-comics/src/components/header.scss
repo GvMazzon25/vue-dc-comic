@@ -1,0 +1,34 @@
+header{
+    width: 100%;
+    height: 15vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    .img-section{
+        width: calc(100% - 65%);
+        height: 100%;
+        background-color: coral;
+        margin: 0;
+        .img-box{
+            width: 70px;
+            height: 70px;
+            background-image: url('../assets/dc-logo.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+    }
+    .nav-section{
+        width: calc(100% - 33%);
+        height: 100%;
+        background-color: blue;
+        .flex{
+            display: flex;
+        }
+    }
+}
+

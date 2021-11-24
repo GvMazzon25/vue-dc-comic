@@ -3,22 +3,21 @@
   <div id="app">
     <!--Header-->
     <Header />
-
+    <!--Main-->
     <main>
-      
+      <Main />
     </main>
   <!--footer-->
   <footer>
-    
+    <Footer />
   </footer>
 
   </div>
-  <!--Main-->
-  
 </template>
 
 <script>
 import Header from '@/components/Header.vue';
+
 
 export default {
   name: 'App',
@@ -30,5 +29,5 @@ export default {
 </script>
 
 <style lang='scss'>
- 
+ @import '@/components/generals.scss';
 </style>
