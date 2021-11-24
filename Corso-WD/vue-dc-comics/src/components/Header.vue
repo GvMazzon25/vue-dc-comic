@@ -5,17 +5,11 @@
       </section>
       <section class="nav-section">
           <ul class="flex">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+            <li v-for="(link, index) in navLink" :key='`link-${index}`'>
+                <a class= '{ active: link current}' href="/">
+                   {{navLink.text}}
+                </a>
+            </li>
           </ul>
       </section>
   </header>
