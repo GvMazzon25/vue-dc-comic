@@ -1,0 +1,31 @@
+.square{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black
+  }
+  
+/*se green non ha un altrezza e il contenuto ha come proprietà 
+float, il contenitore è come se non avesse contenuto e quindi la sua altezza 
+rimane 0. per risolvere, o si da un'altezza a green, o si usa
+clearfix */
+
+  .square.blue{
+    background: blue;
+    float: left;
+  }
+  
+  .square.red{
+    background: red;
+    float: right;
+  }
+  
+  .green{
+    background: green;
+    clear: both;
+  }
+
+  .green:after{
+    clear: both;
+    content:"";
+    display: table;
+  }

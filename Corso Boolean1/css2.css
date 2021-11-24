@@ -1,0 +1,82 @@
+body{
+    background-image: url("legno5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+}
+
+.imgG{
+    width: 100px;
+}
+
+.subject{
+    width: 40%;
+    display: inline-block;
+}
+
+.body{
+    display: inline-block;
+    width: 50%;
+    color: rgb(175, 170, 170);
+
+}
+
+.body:after{
+    content:"..."
+}
+
+.row1{
+    background-color: gray;
+    color: black;
+}
+
+.row2{
+    background-color: rgb(211, 205, 205);
+    color: black;
+}
+
+
+hr{
+    border-color: white;
+}
+
+.unread{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    margin-top:15px ;
+    color: white;
+}
+
+.numero{
+    width: 20px;
+}
+
+footer span:first-child{
+    font-size: 25px;
+}
+
+h2 > span{
+    background-color: orange;
+    border-radius: 50px;
+    padding: 3px;
+}
+
+.star:after{
+    content:"\2605";
+    color: red;
+
+}
+
+.mail:before{
+    content:""
+}

@@ -1,0 +1,45 @@
+.container{
+    height:250px;
+    width:500px;
+    border: 1px solid black;
+    margin: 1px;
+    position: relative;
+    left:15px;
+    background: lightgreen;
+  }
+  
+  .red, .blue, .yellow, .orange, .black{
+    width: 50px;
+    height: 50px;
+  }
+
+  .black{
+      background: black;
+      margin: 20px;
+      position: relative;
+      top:40px;
+  }
+  
+  .orange{
+    background: orange;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  .red{
+    background: red;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  
+  .blue{
+    background: blue;
+  }
+  
+  .yellow{
+    background: yellow;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }

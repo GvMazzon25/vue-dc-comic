@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    background-color: lightgray;
+}
+
+.riga{
+    margin-top: 10px;
+}
+
+.b1, .b2, .b3{
+    height: 350px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    background-size: cover;
+}
+
+.b1{
+    background-image: url("pd1.jpg");
+}
+
+.b2{
+    background-image: url("pd2.jpg"); 
+}
+
+.b3{
+    background-image: url("pd3.jpg");
+}
+
+#cuore{
+    width: 100%;
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    bottom: 2px;
+    display: none;
+}
+
+.sconto1, .sconto2{
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 0px;
+}
+
+.sconto1{
+    background-color: green;
+}
+
+.sconto2{
+    background-color: red;
+}
+
+.b1:hover #cuore{
+    display: block;
+}

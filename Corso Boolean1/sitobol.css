@@ -1,0 +1,17 @@
+nav{
+    font-size: 35px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+p{
+    font-size: 30px;
+}
+
+#P1{
+    border: 3px solid blue
+}
+
+#P2{
+    border: 3px solid orangered;
+}

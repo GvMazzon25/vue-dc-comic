@@ -1,0 +1,53 @@
+/*SELETTORE{
+    proprietà: valore;
+}*/
+
+.speciale{
+    color: blue; /*classe*/
+}
+
+div{
+    color:blueviolet /*tag*/
+}
+#saluto{
+    color: red; /*id*/
+}
+
+#saluto2{
+    color: green;
+}
+
+p{
+    font-size: 30px;
+    color: yellow;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.quadrato{
+    background-color: red;
+    border: 10px solid black;
+    margin: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+  h2{
+      display: inline;
+}
+
+  .quadrato2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 30px solid black;
+    padding: 50px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+}
+
