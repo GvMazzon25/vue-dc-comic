@@ -9,5 +9,5 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-
+   @import '@/components/header.scss'
 </style>
