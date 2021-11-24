@@ -1,0 +1,62 @@
+/*Reset*/
+
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}*/
+
+body{
+    background-image: url(https://i.pinimg.com/originals/aa/43/50/aa4350ce5aed12fc4b0518f0dead4e1e.png);
+}
+
+.container{
+    width: 50%;
+    margin: 10px auto;
+}
+
+hr{
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #fff;
+
+}
+
+.logo{
+    height: 100px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.logo-text{
+    font-size: 25px;
+    color: #fff;
+}
+
+.count{
+    color: #fff;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.badge{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: orange;
+    border-radius: 50%;
+}
+
+.email-row{
+    padding: 2px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+/* selezione con id */
+#color {
+    color: red;
+}
+
+/* selezione con classe */
+.big-text{
+    font-size: 40px;
+}
+
+/* selezione con Tag */
+
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: gray;
+    background-color: orange;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 3000px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.image{
+    background-image: url(...);
+}
